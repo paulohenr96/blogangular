@@ -7,7 +7,6 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
 }
 
 .big-card__title > h1 {
@@ -19,11 +18,10 @@
   margin-top: 20px;
 }
 
-.big-card__description > p > a {
+.big-card__description > a > p {
   color: grey;
 }
 
 .big-card__photo > img {
-  width: 100%;
-  min-width: 600px;
+  min-width: 400px;
 }
