@@ -12,6 +12,9 @@ export class BigCardComponent implements OnInit {
   cardTitle: string = 'Angular Anunciado !';
   @Input()
   cardDescription: string = 'aopsdkpoaksdpokaspodkaspodkapsokdpaoskpok';
+
+  @Input()
+  Id: string = '0';
   constructor() {}
 
   ngOnInit(): void {}
